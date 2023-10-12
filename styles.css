@@ -1,0 +1,22 @@
+body::before{
+    content: "";
+    background-image: url("./fibonacci-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .4;
+    z-index: -1;
+}
+#resultNumbers {
+    max-height: 200px; /* Establece la altura máxima deseada */
+    overflow: auto; /* Activa la barra de desplazamiento automática */
+    border: 1px solid #ccc; /* Opcional: agregar un borde para una apariencia más definida */
+  }
+
+ul {
+    list-style: none;
+  }
